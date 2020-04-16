@@ -1,0 +1,43 @@
+{
+  "name": "@chegg-ui/components",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "directories": {
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@storybook/theming": "^5.3.18",
+    "@testing-library/react": "^10.0.2",
+    "@types/jest": "^25.2.1",
+    "@types/styled-components": "^5.1.0",
+    "babel-loader": "^8.1.0",
+    "jest": "^25.3.0",
+    "lerna": "^3.10.8",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^16.13.1",
+    "storybook": "^5.3.18",
+    "styled-components": "^5.1.0",
+    "ts-jest": "^25.3.1",
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6010",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {}
+}

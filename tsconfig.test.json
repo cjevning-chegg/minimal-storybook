@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
+  "include": [
+    "packages/**/*"
+    // "../../development_assets/assets.d.ts",
+    // "../../@types/jest-styled-components.d.ts",
+    // "../../config/setupTests.ts"
+  ]
+}

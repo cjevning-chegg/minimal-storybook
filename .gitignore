@@ -1,0 +1,15 @@
+coverage
+.nyc_output
+.DS_Store
+*.log
+.vscode
+.idea
+compiled
+.awcache
+.rpt2_cache
+node_modules
+/packages/**/dist
+/packages/**/node_modules
+.npmrc
+.yarnrc
+storybook-static
