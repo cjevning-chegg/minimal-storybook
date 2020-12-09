@@ -6,7 +6,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "npmClient": "yarn"
+      "registry": "https://chegg.jfrog.io/chegg/api/npm/npm/"
     }
   }
 }

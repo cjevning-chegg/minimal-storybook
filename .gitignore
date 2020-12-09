@@ -13,3 +13,7 @@ node_modules
 .npmrc
 .yarnrc
 storybook-static
+.rts2_cache_cjs
+.rts2_cache_es
+.rts2_cache_umd
+gl-code-quality-report.json

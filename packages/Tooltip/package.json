@@ -1,0 +1,16 @@
+{
+  "name": "@chegg-ui/tooltip",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "tsc -w",
+    "prebuild": "rimraf dist"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8",
+    "react-dom": ">= 16.8",
+    "styled-components": ">= 5.0.0"
+  }
+}

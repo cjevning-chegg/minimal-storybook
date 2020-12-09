@@ -1,0 +1,10 @@
+// this file exists to enable usage of img assets within stories via the include, and type checking while running storybook
+{
+  "extends": "./tsconfig.json",
+  "emitDeclarationOnly": false,
+  "exclude": ["node_modules", "dist", "**/__tests__/**", "**/__mocks__/**"],
+  "include": [
+    "./packages/**/src/**/*.stories.@(tsx|mdx)",
+    "./development_assets/assets.d.ts"
+  ]
+}

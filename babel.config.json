@@ -1,0 +1,29 @@
+{
+    "env": {
+        "commonjs": {
+            "presets": ["@babel/preset-env"]
+        },
+        "es6": {
+            "presets": [
+                ["@babel/preset-env", {
+                    "modules": false
+                }],
+            ]
+        }
+    },
+    "presets": [
+        "@babel/preset-react",
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-proposal-class-properties",
+        [
+            "styled-components",
+            {
+                "ssr": true,
+                "displayName": false
+            }
+        ]
+    ]
+}

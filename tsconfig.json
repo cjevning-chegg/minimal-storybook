@@ -1,18 +1,23 @@
 {
   "compilerOptions": {
+    "module": "es6",
     "moduleResolution": "node",
-    "target": "es5",
-    "module": "es2015",
+    "target": "es6",
     "lib": ["es5", "es6", "es7", "es2017", "dom"],
-    "strict": true,
     "jsx": "react",
-    "sourceMap": true,
+    "strict": true,
     "declaration": true,
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "types": ["node", "react", "jest"]
+    "esModuleInterop": true,
+    "types": ["node", "react", "jest"],
+    // Ensure that .d.ts files are created by tsc, but not .js files
+    "declaration": true,
+    "emitDeclarationOnly": true
   },
-  "include": ["packages/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/__tests__/**",
+    "**/__mocks__/**",
+    "**/*.stories.*"
+  ]
 }

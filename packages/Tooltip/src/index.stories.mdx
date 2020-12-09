@@ -1,0 +1,21 @@
+import {
+  Meta,
+  Story,
+  Canvas,
+  ArgsTable,
+  Subtitle,
+  Source,
+} from "@storybook/addon-docs/blocks";
+import Tooltip from ".";
+import pkg from "../package.json";
+import * as stories from "./index.stories.tsx";
+
+<Meta title="Chegg UI/Tooltip" component={Tooltip} />
+
+# Chegg UI Tooltip
+
+<ArgsTable of={Tooltip} />
+
+<Canvas>
+  <Story story={stories.tooltip} />
+</Canvas>

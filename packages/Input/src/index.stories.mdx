@@ -1,0 +1,20 @@
+import {
+  Meta,
+  Story,
+  Canvas,
+  ArgsTable,
+  Subtitle,
+  Source,
+} from "@storybook/addon-docs/blocks";
+import Input from ".";
+import * as stories from "./index.stories.tsx";
+
+<Meta title="Chegg UI/Input" component={Input} />
+
+# Chegg UI Input
+
+<ArgsTable of={Input} />
+
+<Canvas>
+  <Story story={stories.input} />
+</Canvas>

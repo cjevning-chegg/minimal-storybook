@@ -1,0 +1,23 @@
+{
+  "name": "@chegg-ui/input",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "tsc -w",
+    "prebuild": "rimraf dist"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "peerDependencies": {
+    "@chegg-ui/input-wrapper": ">= 1.0.0",
+    "@chegg-ui/theme": ">= 1.0.0",
+    "@chegg-ui/utils": ">= 1.0.0",
+    "react": ">= 16.8",
+    "react-dom": ">= 16.8",
+    "styled-components": ">= 5.0.0"
+  },
+  "devDependencies": {
+    "@chegg-ui/avatar": "^1.1.1",
+    "@chegg-ui/input-wrapper": "^1.1.1"
+  }
+}
