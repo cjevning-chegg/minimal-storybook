@@ -1,5 +1,5 @@
 {
-  "name": "@chegg-ui/input",
+  "name": "@chegg-ui/textarea",
   "version": "1.0.0",
   "scripts": {
     "watch": "tsc -w",

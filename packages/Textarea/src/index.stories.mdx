@@ -1,0 +1,20 @@
+import {
+  Meta,
+  Story,
+  Canvas,
+  ArgsTable,
+  Subtitle,
+  Source,
+} from "@storybook/addon-docs/blocks";
+import Textarea from ".";
+import * as stories from "./index.stories.tsx";
+
+<Meta title="Chegg UI/Textarea" component={Textarea} />
+
+# Chegg UI Textarea
+
+<ArgsTable of={Textarea} />
+
+<Canvas>
+  <Story story={stories.textarea} />
+</Canvas>

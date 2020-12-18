@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "test-eyes": "yarn eyes-storybook",
+    "test-eyes": "yarn eyes-storybook -c .storybook_eyes",
     "storybook": "start-storybook -p 6011",
     "storybook-eyes": "start-storybook -p 6012 -c .storybook_eyes",
     "build-storybook": "build-storybook"
